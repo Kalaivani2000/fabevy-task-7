@@ -1,0 +1,293 @@
+/*------------container & grid---------*/
+.container{
+	   width:1170px;
+	   padding:0 15px;
+	   margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col-lg-1{
+	  width:8.33%;
+	  padding:0 15px;
+}
+.col-lg-2{
+	  width:16.66%;
+	  padding:0 15px;
+}
+.col-lg-3{
+	  width:25%;
+	  padding:0 15px;
+}
+.col-lg-4{
+	  width:33.33%;
+	  padding:0 15px;
+}
+.col-lg-5{
+	  width:41.66%;
+	  padding:0 15px;
+}.col-lg-6{
+	  width:50%;
+	  padding:0 15px;
+}
+.col-lg-7{
+	  width:58.33%;
+	  padding:0 15px;
+}
+.col-lg-8{
+	  width:66.66%;
+	  padding:0 15px;
+}
+.col-lg-9{
+	  width:75%;
+	  padding:0 15px;
+}
+.col-lg-10{
+	  width:83.33%;
+	  padding:0 15px;
+}
+.col-lg-11{
+	  width:91.66%;
+	  padding:0 15px;
+}.
+.col-lg-12{
+	  width:100%;
+	  padding:0 15px;
+}
+
+/*-------------header section-----*/
+.header{
+	 padding:0 15px;
+	  background-color:white;
+}
+.logo{
+	background-color:red;
+	height:70px;
+}
+.logo-menu{
+	background-color:red;
+	height:70px;
+	margin-bottom:20px;
+}
+
+/*-------------banner section-----*/
+.banner{
+	  padding-top:80px;
+	  padding-bottom:80px;
+	  background-color:black;
+	  margin-bottom:20px;
+}
+.banner-content{
+	    background-color:gray;
+		height:300px;
+		width:400px;
+}
+
+/*-------------client section-----*/
+.client-logo{
+	    background-color:#ccc;
+		height:80px;
+		margin-bottom:20px;
+}	
+/*-------------about section-----*/
+.about{
+	  padding-top:80px;
+	  padding-bottom:80px;
+	  background-color:black;
+}
+.about-content{
+	    background-color:#ccc;
+		height:400px;
+}
+.about-info{
+	    background-color:#ccc;
+		height:170px;
+		margin-bottom:20px;
+}
+
+/*-------------project section-----*/
+.pro-content{
+	    background-color:#a75858;
+		height:80px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+/*-------------support section-----*/
+.sup-content{
+	    background-color:#ac1010;
+		height:80px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+.sub-content{
+	    background-color:#ccc;
+		height:300px;
+		margin-bottom:20px;
+		margin-top:20px;
+		
+}		 
+
+
+/*-------------service section-----*/		 
+.service{
+	  padding-top:80px;
+	  padding-bottom:100px;
+	  background-color:black;
+	  height:600px;
+	  
+}
+.ser-content{
+	    background-color:#c6caa4;
+		height:100px;
+		
+}
+.service-content{
+	    background-color:#ccc;
+		height:80px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+/*-------------portfolio section-----*/	
+.portfolio{
+      margin-top:30px;
+}	  
+.port{
+	  padding:0 15px;
+	  background-color:black;
+	  height:600px;
+}
+.port-content{
+	    background-color:#ca6161;
+		height:100px;
+}
+.folio-content{
+	    background-color:#ccc;
+		height:300px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+
+/*-------------testimonial section-----*/	
+.testimonial{
+	    padding:0 15px;
+		background-color:white;
+}
+.test-content{
+	    background-color:#8eaca9;
+		height:100px;
+}
+.monial-content{
+	    background-color:#ccc;
+		height:300px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+
+/*-------------business section-----*/	
+.business{
+	    padding:0 15px;
+		background-color:black;
+		padding-top:80px;
+}
+.business-content{
+	    background-color:#b564c2;
+		height:100px;
+}
+.bus-content{
+	    background-color:#ccc;
+		height:500px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+
+/*-------------business section-----*/	
+.frequently{
+	    padding:0 15px;
+		background-color:white;
+		padding-top:20px;
+}
+.question-content{
+	    background-color:#9a1a64;
+		height:100px;
+}
+.quiz-content{
+	    background-color:#ccc;
+		height:400px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+
+/*-------------team section-----*/
+.team{
+	    padding:0 15px;
+		background-color:black;
+		padding-top:20px;
+		padding-bottom:20px;
+}
+.team-content{
+	    background-color:#673ab7;
+		height:100px;
+}
+.info-content{
+	    background-color:#ccc;
+		height:400px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+
+
+
+/*-------------contact section------*/
+.contact{
+	    padding:0 15px;
+		background-color:white;
+		padding-top:20px;
+}
+.contact-content{
+	    background-color:#673ab7;
+		height:100px
+}
+.cont-content{
+	    background-color:#ccc;
+		height:400px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+.add-content{
+	    background-color:#ccc;
+		height:150px;
+		margin-bottom:20px;
+		margin-top:20px;
+		
+}
+.email-content{
+	    background-color:#ccc;
+		height:200px;
+		left:20px;
+}
+
+/*-------------footer section-----*/
+.footer{
+		background-color:black;
+		padding-top:20px;
+		padding-bottom:20px;
+}
+.foot-content{
+	    background-color:#9e9e9e;
+		height:300px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
+.ft-content{
+	    background-color:#107a9a;
+		height:80px;
+		margin-bottom:20px;
+		margin-top:20px;
+}
