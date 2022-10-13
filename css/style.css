@@ -254,14 +254,7 @@
 		
 }
 .nav-buttons .button{
-	  text-decoration:none;
-	  padding:12px 25px;
-	  text-align:center;
-	  border-radius:3px;
-	  background-color:#e03a3c;
 	  font-size:20px;
-	  color:#fff;
-	  display:inline-block;
 	  border: 2px solid #e03a3c;
 	  
 	  
@@ -271,34 +264,150 @@
 
 
 /*-------------client section-----*/
-.client-logo-1{
-		height:80px;
-		width:30px;
-		margin-bottom:20px;
-		margin-top:40px;
+.client-logo{
+		padding:30px 30px;
+		display:flex;
+		align-items:center;
+		padding-top:100px;
+	    padding-bottom:100px;
 }	
+.client-logo img{
+	   width:100%;
+	   filter:grayscale(100%);
+	   opacity:0.5;
+}
+.client-logo img:hover{
+	   filter:grayscale(0%);
+	   opacity:1;
+} 
+
+
 /*-------------about section-----*/
+.sect-shape{
+	 position:relative;
+	 z-index:1;
+}
+.sect-shape:after{
+	 content:"";
+	 position:absolute;
+	 left:0;
+	 top:0;
+	 width:100%;
+	 height:100%;
+	 background-color:#222;
+	 z-index:-1;
+	 transform:skew(0deg,-3deg);
+}
 .about{
 	  padding-top:80px;
 	  padding-bottom:80px;
+}
+.about-content h2{
+	  font-weight:700;
+      font-size:34px;
+	  font-family:"Raleway", sans-serif;
+	  margin-top:54px;
+	  color:white;
+}
+.about-content p{
+      font-size:17px;
+	  font-weight:500;
+	  font-family:"Raleway", sans-serif;
+      margin-bottom:30px;
+	  margin-top:30px;
+	  color:white;
+}
+.nav-buttons2 .button2{
+	  text-decoration:none;
+	  padding:12px 40px;
+	  text-align:center;
+	  border-radius:26px;
+	  border:2px solid #e03a3c;
 	  background-color:black;
+	  font-size:15px;
+	  color:#fff;
+	  text-transform:uppercase;
+	  display:inline-block;
 }
-.about-content{
-	    background-color:#ccc;
-		height:400px;
-}
+.nav-buttons2 .button2:hover{
+	  background-color:#e03a3c;
+	  }
 .about-info{
-	    background-color:#ccc;
-		height:170px;
-		margin-bottom:20px;
+	    margin-bottom:30px;
+		margin-top:30px;
 }
+.about-info h2{
+	    font-size:20px;
+        font-weight:700;
+		margin-bottom:10px;
+		margin-top:10px;
+		color:white;
+		font-family:"Raleway", sans-serif;
+		
+}
+.about-info p{
+	    font-size:15px;
+        color:#848484;
+		margin-bottom:15px;
+		font-family:"Raleway", sans-serif;
+}
+.about-info i{
+	    font-size:36px;
+		color:#e03a3c;
+		padding-bottom:30px;
+}
+	    
 
 /*-------------project section-----*/
-.pro-content{
-	    background-color:#a75858;
-		height:80px;
-		margin-bottom:20px;
-		margin-top:20px;
+.project-content{
+	  position:relative;
+	  border:2px solid #fff;
+	  background-color:#fff;
+	  text-align:center;
+	  margin-right:40px;
+	  width:267px;
+	  height:144px;
+	  margin-bottom:100px;
+	  margin-top:150px;
+	  margin-left:5px;
+	  box-shadow: 0px 2px 35px rgb(0 0 0 / 9%);
+	  border-radius:4px;
+}
+
+
+.project-content h2{
+	  font-size:36px;
+      display:block;
+      font-weight:700;
+      color:#111111;
+	  padding-right:8px;
+	  margin-top:33px;
+}
+.project-content p{
+	   font-size:16px;  
+       padding:10px;	
+       color:#848484;	 
+       font-family:"Raleway", sans-serif;
+	   padding-right:17px;
+}
+.project-content i{
+	  
+	  width:45px;
+	  height:45px;
+	  border:1px;
+	  line-height:45px;
+	  border-radius:50%;
+	  top:-30px;
+	  left:50%;
+	  z-index:2;
+	  position:absolute;
+	  background-color:#fff;
+	  color:#e03a3c;
+	  font-size:28px;
+	  transform:translateX(-50%);
+	  border:1px solid #fff;
+	  box-shadow: 0px 4px 20px rgba(0 0 0 /6%);
+	 
 }
 
 /*-------------support section-----*/
