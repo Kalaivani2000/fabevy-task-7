@@ -380,15 +380,15 @@
       display:block;
       font-weight:700;
       color:#111111;
-	  padding-right:53px;
-	  margin-top:20px;
+	  padding-right:8px;
+	  margin-top:33px;
 }
 .project-content p{
 	   font-size:16px;  
        padding:10px;	
        color:#848484;	 
        font-family:"Raleway", sans-serif;
-	   padding-right:53px;
+	   padding-right:17px;
 }
 .project-content i{
 	  
