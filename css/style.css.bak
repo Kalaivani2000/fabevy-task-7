@@ -779,7 +779,7 @@ a.active-port{
 }
 .monial-content img{
 	    position:relative;
-        width:35%;
+        width:30%;
         height:auto;
         border-radius:5px;
         padding:45px 0px 0px 27px;
@@ -788,8 +788,8 @@ a.active-port{
 	    font-size:20px;
 		font-weight:700;
 		font-family:"Raleway", sans-serif;
-		margin-top:-84px;
-        padding-left:54px;
+		margin-top:-75px;
+        padding-left:15px;
 		color:#2b2424d4;
 }
 .monial-content h3{
@@ -1351,9 +1351,9 @@ a.active-port{
 }
 /*-------------footer section-----*/
 .footer{
-		background-color:black;
+		background-color:#111111;
 		padding-top:20px;
-		padding-bottom:20px;
+		padding-bottom:60px;
 }
 .foot-content{
 	    margin-top:40px;
@@ -1413,6 +1413,7 @@ a.active-port{
 	   text-decoration:none;
 	   color:#aaaaaa;
 	   font-size:14px;
+	   font-weight:400;
 	   font-family:"Raleway", sans-serif;
 } 
 .foot-content-2 a{
@@ -1457,24 +1458,68 @@ a.active-port{
 		margin-top:-20px;
 }
 .button-1 .buttons{
-	  text-decoration:none;
-	  padding:14px 27px 10px 27px;
-	  text-align:left;
-	  background-color:#e03a3c;
-	  font-size:20px;
-	  color:#fff;
 	  display:inline-block;
+	  text-decoration:none;
+      padding:10px 31px;
+      border-radius:3px;
+      text-align:left;
+      background-color:#e03a3c;
+      font-size:20px;
+      color:#fff;
 }
 .button-1{
 	 margin-left:313px;
      margin-top:-76px;
 }
-.name input{
-	  padding:17px 86px 15px 87px;
-	  border-radius:5px;
-	  display:inline-block;
-	  border:1px solid #ccc;
-	  margin-top:35px;
-	  margin-left:104px;
-	  margin-bottom:28px;
+.text label{
+	 padding:20px 174px;
+     border-radius:5px;
+     display:inline-block;
+     border:1px solid #ccc;
+     margin-top:35px;
+     margin-left:103px;
+     margin-bottom:29px;
+     background-color:white;
+}
+.footer-2{
+	    background-color:#000;
+		padding-top:20px;
+		padding-bottom:20px;
+}
+.ft-content p{
+	  font-size:14px;
+	  font-family:"Raleway", sans-serif;
+	  color:#fff;
+}
+.ft-content p span{
+	  font-size:15px;
+	  font-weight:bold;
+	  font-family:"Raleway", sans-serif;
+	  color:#fff;
+	  line-height:2;
+}
+.ft-content p span-2{
+	  font-size:15px;
+	  font-family:"Raleway", sans-serif;
+	  color:#e03a3c;
+}
+.ft-content-2{
+	     padding-left:516px;
+}
+.ft-content-2 a {
+	   display:inline-block;
+	   font-size:16px;
+       color:#fff;
+	   text-decoration:none;
+	   width:36px;
+	   height:36px;
+	   text-align:center;
+	   background-color:#282525;
+	   padding:8px 10px;
+	   border-radius:4px;
+	   margin-left:3px;
+}
+.ft-content-2 a:hover{
+	   background-color:#e03a3c;
+	   transition:all 0.3s ease;
 }

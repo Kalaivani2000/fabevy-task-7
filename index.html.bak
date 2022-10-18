@@ -852,24 +852,30 @@
 									    <div class="underline-3"></div>
 										    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 											    <form>
-												<div class="name">
-												    <input type="text" id="fname" name="fname">
+												<div class="text">
+												    <label type="text" id="fname" name="fname">
 												 </div>
-													    <div class="button">
+													    <div class="button-1">
 						                                    <a href="#" class="buttons">Subscribe</a>
 						                                </div>
 											    </form>
 				                </div>
 			                </div>
 						</div>
+			    </div>
+			</section>
+			<section class="footer-2">
+                <div class="container">
 						<div class="row">
 						    <div class="col-lg-4">
 							    <div class="ft-content">
+								    <p>© Copyright <span>Presento.</span> All Rights Reserved</p>
+									<p>Designed by <span-2>BootstrapMade</span-2></p>
 								</div>
 							</div>
 							 <div class="col-lg-8">
-							    <div class="ft-content">
-								</div>
+							    <div class="ft-content-2">
+								    <a href="#"<i class="icofont-twitter"></i></a>
 							</div>
 						</div>
 			   </div>   
