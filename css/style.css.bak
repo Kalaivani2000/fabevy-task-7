@@ -267,6 +267,7 @@ body{
 }
 .button-bg{
 	  font-size:20px;
+	  border: 2px solid #e03a3c;
 }
 .button-bg:hover{
      background-color:transparent;
